@@ -1,9 +1,10 @@
-// import Topbar from "./scenes/global/Topbar";
-// import Sidebar from "./scenes/global/sidebar";
+import Sidebar from "./scenes/sidebar";
+import Topbar from "./scenes/Topbar";
 import { Link } from "react-router-dom";
 // import Dashboard from "./scenes/dashboard/dashbard";
 // import Hero from "./scenes/hero/hero";
 
+import Dashboard from "./scenes/dashbard";
 
 
 
@@ -11,40 +12,8 @@ import { Link } from "react-router-dom";
 const App = () => {
   return (
 
+   <Dashboard />
 
-    <div>
-      <Link to="/dashboard">Dashboard</Link>
-      Heyy
-    </div>
-    // <div className="app">
-    //   <div className="sidebar">
-    //     <Sidebar />
-    //   </div>
-    //   <div className="content">
-    //     <Topbar />
-    //   </div>
-    //   {/* <Routes>
-    //     <Route path="/" element= {<Topbar />} />
-    //   </Routes> */}
-    // </div>
-
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Hero />}>
-    //       <Route index element={<Topbar />} />
-    //       <Route path="dashboard" element={<Dashboard />} />
-    //     </Route>
-    //   </Routes>
-    // </BrowserRouter>
-    
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Hero />}>
-    //       <Route index element={<Topbar />} />
-    //       <Route path="dashboard" element={<Dashboard />} />
-    //     </Route>
-    //   </Routes>
-    // </BrowserRouter>
   );
 }
 
