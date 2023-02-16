@@ -1,5 +1,5 @@
-import notification_icon from "./../../img/notifications.png"
-import arrowdown from "./../../img/arrowdown.png"
+import notification_icon from "./../img/notifications.png"
+import arrowdown from "./../img/arrowdown.png"
 import styles from "./topbar.module.css"
 
 const Topbar = () => {
